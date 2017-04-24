@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-batch-invoker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "batch invoker of a lambda function",
   "main": "index.js",
   "scripts": {
