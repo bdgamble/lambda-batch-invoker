@@ -37,7 +37,7 @@ module.exports = class BatchLambdaInvoker {
     // overridden at individual method call level
     options.options = Object.assign({}, this._options, options.options);
 
-    logger && logger.info({
+    logger && logger.debug({
       isAsync,
       options
     }, 'trying to batch invoke lambda');
