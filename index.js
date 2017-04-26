@@ -43,8 +43,8 @@ module.exports = class BatchLambdaInvoker {
     }, 'trying to batch invoke lambda');
 
     const invoke = isAsync
-      ? this._invoker.invokeAsync
-      : this._invoker.invoke;
+      ? this._invoker.invokeAsync.bind(this._invoker)
+      : this._invoker.invoke.bind(this._invoker);
 
     return BPromise.map([].concat(options.payloads), payload => {
       const invokeOptions = {
