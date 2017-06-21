@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-batch-invoker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "batch invoker of a lambda function",
   "main": "index.js",
   "scripts": {
@@ -35,6 +35,6 @@
   },
   "dependencies": {
     "bluebird": "3.5.0",
-    "aws-lambda-invoker": "2.0.0"
+    "aws-lambda-invoker": "2.0.1"
   }
 }
