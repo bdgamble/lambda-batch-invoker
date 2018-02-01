@@ -1,6 +1,6 @@
 {
   "name": "aws-lambda-batch-invoker",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "batch invoker of a lambda function",
   "main": "index.js",
   "scripts": {
@@ -25,16 +25,16 @@
   },
   "homepage": "https://github.com/bdgamble/lambda-batch-invoker#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "chai-as-promised": "^6.0.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
     "env-test": "^1.0.0",
-    "eslint": "^3.19.0",
-    "eslint-plugin-mocha": "^4.9.0",
-    "mocha": "^3.2.0",
-    "sinon": "^2.1.0"
+    "eslint": "^4.16.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "mocha": "^5.0.0",
+    "sinon": "^4.2.2"
   },
   "dependencies": {
-    "bluebird": "3.5.0",
-    "aws-lambda-invoker": "2.0.1"
+    "bluebird": "3.5.1",
+    "aws-lambda-invoker": "2.2.0"
   }
 }

@@ -7,7 +7,8 @@ const LambdaInvoker = require('aws-lambda-invoker');
 module.exports = class BatchLambdaInvoker {
   constructor(options) {
     options = Object.assign({
-      maxConcurrency: 5
+      maxConcurrency: 5,
+      compressPayloads: false
     }, options);
     this._logger = options.logger;
     this._options = options;
